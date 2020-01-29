@@ -1,0 +1,49 @@
+{
+  "name": "node-util",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Node Util",
+  "engines": {
+    "node": "^10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rexsun/node-util.git"
+  },
+  "nyc": {
+    "include": [
+      "src/*.js"
+    ],
+    "all": true
+  },
+  "dependencies": {
+    "async": "3.1.0",
+    "bcryptjs": "2.4.3",
+    "deasync": "0.1.14",
+    "deep-diff": "1.0.2",
+    "http-proxy": "1.17.0",
+    "lodash": "4.17.15",
+    "moment": "2.24.0",
+    "moment-range": "4.0.1",
+    "php-serialize": "3.0.1",
+    "request": "2.88.0",
+    "uuid": "3.3.2",
+    "validator": "10.11.0",
+    "xml2js": "0.4.19"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "4.19.3",
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "nyc": "13.2.0",
+    "supertest": "3.4.2"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --exit test/mocha-init.js test/unit/**/*.test.js",
+    "test-coverage": "nyc --reporter=text npm test",
+    "test-single": "node ./node_modules/mocha/bin/mocha --exit test/mocha-init.js $1",
+    "test1": "node ./node_modules/mocha/bin/mocha --exit test/mocha-init.js $1"
+  },
+  "main": "index.js",
+  "author": "Rex Sun <rex_sun@live.com>"
+}
