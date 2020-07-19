@@ -22,7 +22,7 @@
     "deasync": "0.1.14",
     "deep-diff": "1.0.2",
     "http-proxy": "1.17.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "moment": "2.24.0",
     "moment-range": "4.0.1",
     "php-serialize": "3.0.1",
