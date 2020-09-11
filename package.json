@@ -21,7 +21,7 @@
     "bcryptjs": "2.4.3",
     "deasync": "0.1.14",
     "deep-diff": "1.0.2",
-    "http-proxy": "1.17.0",
+    "http-proxy": "1.18.1",
     "lodash": "4.17.15",
     "moment": "2.24.0",
     "moment-range": "4.0.1",
