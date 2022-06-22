@@ -17,7 +17,7 @@
     "all": true
   },
   "dependencies": {
-    "async": "3.1.0",
+    "async": "3.2.2",
     "bcryptjs": "2.4.3",
     "deasync": "0.1.14",
     "deep-diff": "1.0.2",
